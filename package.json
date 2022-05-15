@@ -2,6 +2,13 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
+    "start": "node index",
+    "create": "node create",
+    "update": "node update",
+    "status": "curl -G https://api.github.com/",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
