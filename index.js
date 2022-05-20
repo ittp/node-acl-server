@@ -13,3 +13,15 @@ class Config {
     return { key: 1, data: '1' };
   }
 }
+
+let os = require('node:os');
+
+console.log(os);
+
+const { spawn } = require('os');
+
+let arch = os.arch()
+
+;
+
+
